@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+}
+
+.Headd {
+    height: 150px;
+    width: 100%;
+    background-color: cyan;
+    background: linear-gradient(#343434, cyan );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif
+}
+
+#principal {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.Dados {
+    background: linear-gradient(#343434, cyan, #343434 );
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+
+}
+
+.mensagem {
+    background: linear-gradient(#343434, cyan, #343434 );
+    width: 70%;
+    height: 400px;
+    border-radius: 30px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+table {
+    padding: auto;
+    width:70%;
+    height: 50px;
+    background-color: #FFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+
+}
+
+tr {
+   flex-direction: column;
+   padding: 10px;
+   border: 1px solid #000;
+}
+
+
+td {
+    padding: 10px;
+ 
+}
+
+.dados1 {
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+input {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+input:hover {
+    background-color: #FFF;
+}
+
+.sexo {
+    justify-content: flex-start;
+}
+
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    background: linear-gradient(cyan, #343434 );
+    align-items: bottom;
+
+}
+
+.mensagem_final {
+    width: 70%;
+    height: 300px;
+    border-radius: 30px;
+    padding: 20px;
+    text-align:initial;
+    font-size: 20px;
+    te
+
+}
